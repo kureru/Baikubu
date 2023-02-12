@@ -1,24 +1,28 @@
-�@�ȉ��̂ӂ��Ƃ��ς�̃T�C�g�ŁA���[�U�[�o�^����B
-���C�ӓ��͂ƂȂ��Ă���u�ԗ����v�����A�K���o�^����B
-https://reserve.fumotoppara.net/
+# 事前準備
 
-�AChrome�u���E�U�̃o�[�W�������ŐV���ǂ������m�F�B
-Chrome���J���@���@�E��́u�E�E�E�v�@���@�w���v�@���@Google Chrome�ɂ��ā@���@�uChrome�͍ŐV�̏�Ԃł��v�ƕ\������Ă����OK
+* 右上の「Code」→ 「DownloadZip」で本体をダウンロード。ダウンロード後解凍しておく。
 
-���݂̑Ή��o�[�W�����F110.0.5481.78
+* 以下のふもとっぱらのサイトで、ユーザー登録する。
+  * ※任意入力となっている「車両情報」欄も、必ず登録する。
+  * https://reserve.fumotoppara.net/
 
-�B�v���O������zip���𓀂��A�t�H���_���ɂ���u�\��ݒ�.json�v���e�L�X�g�G�f�B�^�ŊJ���B
-�u���[���A�h���X�v�u�p�X���[�h�v�u�\����t�v�u�`�F�b�N�C�����ԁv��ύX���ĕۑ�����B
+* Chromeをインストールしておく。 
 
-���܂��̓e�X�g���s�̂��߁A�\����t�͗\����J�n���Ă���K���ȓ��t�ɂ��Ă����B
-"TestMode"�̗���"yes"���ݒ肳��Ă����Ԃ̂܂܂ɂ���B
+* Chromeブラウザのバージョンが最新かどうかを確認。
+  * Chromeを開く　→　右上の「・・・」　→　ヘルプ　→　Google Chromeについて　→　「Chromeは最新の状態です」と表示されていればOK
+  * 現在の対応バージョン：110.0.5481.78
 
-�C���t�H���_���ɂ���u�ӂ��Ƃ��ς�\��.exe�v�����s���A���\����e�m�F�̍ŏI��ʂ܂ōs�����Ƃ��m�F����B
-�m�F���ł�����AChrome�ƃR�}���h�v�����v�g�����B
+# 実行方法
+* FumotopparaYoyaku.zipを解凍し、フォルダ内にある「予約設定.json」をテキストエディタで開く。
+「メールアドレス」「パスワード」「予約日付」「チェックイン時間」を変更して保存する。
+※まずはテスト実行のため、予約日付は予約を開始している適当な日付にしておく。
+"TestMode"の欄は"yes"が設定されている状態のままにする。
 
-�D�u�\��ݒ�.json�v���ēx�e�L�X�g�G�f�B�^�ŊJ���A�uTestMode�v��"no"�ɂ���B
+* 当フォルダ内にある「ふもとっぱら予約.exe」を実行し、ご予約内容確認の最終画面まで行くことを確認する。
+確認ができたら、Chromeとコマンドプロンプトを閉じる。
 
+* 「予約設定.json」を再度テキストエディタで開き、「TestMode」を"no"にする。
 
 -------------------------------------------------------------------------------------------------------------------------------
-�E�\��J�n����19:00�Ɏ蓮�Ŏ��s���邩�A�^�X�N�X�P�W���[���[�Ŏ��s�����悤�ɐݒ肵�Ă����B
-�i�^�X�N�X�P�W���[���[�ł��ꍇ���AGUI��Chrome�������悤�ɁA���[�U�[�����O�C�����Ă��Ȃ��Ƃ��߂����H�j
+* 予約開始日の19:00に手動で実行するか、タスクスケジューラーで実行されるように設定しておく。
+（タスクスケジューラーでやる場合も、GUIでChromeが動くように、ユーザーがログインしていないとだめかも？）
