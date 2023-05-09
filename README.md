@@ -4,7 +4,7 @@
 # 事前準備
 
 * 以下から本体をダウンロード。ダウンロード後解凍しておく。
- * https://github.com/kureru/Baikubu/releases/download/FumotopparaYoyaku/FumotopparaYoyaku.zip
+  * https://github.com/kureru/Baikubu/releases/download/FumotopparaYoyaku/FumotopparaYoyaku.zip
 
 * 以下のふもとっぱらのサイトで、ユーザー登録する。
   * ※任意入力となっている「車両情報」欄も、必ず登録する。
@@ -35,6 +35,7 @@
 # 事前準備
 
 * 右上の「Code」→ 「DownloadZip」で本体をダウンロード。ダウンロード後解凍しておく。
+  * https://github.com/kureru/Baikubu/releases/download/ShinnihonkaiFerry/ShinnihonkaiFerry.zip
 
 * 以下の新日本海フェリーのサイトでユーザー登録する。
   * ふもとっぱらと違って、とりあえず登録されていればよい。
