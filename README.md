@@ -35,7 +35,7 @@
 # 事前準備
 
 * 以下から本体をダウンロード。ダウンロード後解凍しておく。
-  * https://github.com/kureru/Baikubu/releases/download/ShinnihonkaiFerry/ShinnihonkaiFerry.zip
+  * https://github.com/kureru/Baikubu/releases/download/TaiheiyoFerry/TaiheiyoFerry.zip
 
 * 以下の新日本海フェリーのサイトでユーザー登録する。
   * ふもとっぱらと違って、とりあえず登録されていればよい。
